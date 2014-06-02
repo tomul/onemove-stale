@@ -22,6 +22,8 @@ var/
 .installed.cfg
 *.egg
 
+.idea
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -51,4 +53,11 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# CoffeeScript source maps
+*.map
+
+/static
+local_settings.py
+/site_media
 
